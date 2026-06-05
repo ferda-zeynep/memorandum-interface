@@ -1,5 +1,7 @@
 # Memorandum Interface
 
+[Live Demo](https://memorandum-interface.vercel.app/)
+
 A distraction-free interface for reading, analyzing, and reviewing structured executive memoranda.
 
 This project was developed as part of the application process for the Interface Developer Intern position at JHC Consulting. It explores how structured analytical documents can be presented in a digital environment without relying on external frameworks or introducing unnecessary interface complexity.
