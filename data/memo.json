@@ -1,0 +1,14 @@
+{
+  "ev-material-breach": {
+    "claim": "Repeated failures legally constitute a material breach.",
+    "clause": "Section 8.2 (Termination for Cause)",
+    "provision": "A continuous failure to perform core obligations, or an aggregate error margin exceeding 5% in any two consecutive fiscal quarters, shall formally constitute a material breach, granting the non-breaching party immediate rights to issue intent of termination.",
+    "source": "Master Service Agreement (MSA) - Contract Ref #2024-LOG-011"
+  },
+  "ev-error-rate": {
+    "claim": "An unprecedented 14.2% across major hubs.",
+    "clause": "SLA Metrics Dashboard - Q1 Audit Report",
+    "provision": "Logistics node evaluation registered standard routing failures at 14.2% for continental hubs during the period of January 1 to March 31, 2026. This exceeds the maximum allowable threshold specified in Schedule B by 12.2%.",
+    "source": "Internal Operations & Compliance Ledger"
+  }
+}

@@ -1,0 +1,139 @@
+/* Navigation Outline Styles */
+.nav-title {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-secondary);
+    margin-bottom: 16px;
+}
+
+.outline-list {
+    list-style: none;
+}
+
+.outline-link {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    padding: 8px 0;
+    transition: color var(--transition-speed);
+}
+
+.outline-link:hover {
+    color: var(--color-text-primary);
+}
+
+.outline-link.active {
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+.shortcut-hint {
+    font-size: 0.7rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin-right: 6px;
+    color: var(--color-text-secondary);
+}
+
+/* Interactive Text Annotations */
+.annotation-trigger {
+    background: none;
+    border: none;
+    border-bottom: 2px dashed var(--color-accent);
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    padding: 0 2px;
+    transition: background-color var(--transition-speed);
+}
+
+.annotation-trigger:hover {
+    background-color: var(--color-accent-light);
+}
+
+.annotation-trigger:focus {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+/* Control Buttons */
+.btn-control {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color var(--transition-speed);
+}
+
+.btn-control:hover {
+    background-color: var(--color-border);
+}
+
+/* Evidence Panel Internal Components */
+.evidence-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.evidence-panel-header h3 {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+}
+
+.evidence-panel-content {
+    padding: 24px;
+    font-family: var(--font-sans);
+    overflow-y: auto;
+}
+
+.evidence-placeholder {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+/* Signature Block Component */
+.signature-block {
+    margin-top: 64px;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--color-text-primary);
+}
+
+.signature-line {
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.signature-author {
+    font-weight: 600;
+}
+
+.signature-date {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}

@@ -1,0 +1,21 @@
+:root {
+    --color-bg: #FAFAFA;
+    --color-surface: #FFFFFF;
+    --color-text-primary: #1F2937;
+    --color-text-secondary: #6B7280;
+    --color-border: #E5E7EB;
+    --color-accent: #1D4ED8;
+    --color-accent-light: #EFF6FF;
+    --color-classification: #DC2626;
+
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Source Serif 4', Georgia, serif;
+
+    --utility-bar-height: 48px;
+    --sidebar-width: 280px;
+    --evidence-panel-width: 360px;
+    --max-content-width: 720px; 
+    
+    --transition-speed: 0.2s;
+    --transition-ease: ease-in-out;
+}

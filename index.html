@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Memorandum: Supplier Agreement Review | JHC Consulting Interface Demo
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <a href="#main-memorandum" class="skip-link">Skip to main content</a>
+
+    <header class="utility-bar" role="banner">
+      <div class="utility-container">
+        <div class="firm-branding">
+          <strong>JHC Consulting</strong>
+          <span class="divider">|</span> Internal Advisory Record
+        </div>
+        <div class="reading-metrics">
+          <span id="reading-time" aria-live="polite"
+            >Est. reading time: 6 min</span
+          >
+          <span class="divider">|</span>
+          <span id="reading-progress-text">Progress: 0%</span>
+          <div
+            class="progress-bar-container"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+            aria-label="Reading progress"
+          >
+            <div id="progress-bar-fill" class="progress-fill"></div>
+          </div>
+        </div>
+        <div class="interface-controls">
+          <button
+            id="toggle-focus-mode"
+            class="btn-control"
+            aria-pressed="false"
+            aria-label="Enable Focus Mode (Hides sidebars)"
+          >
+            Toggle Focus Mode
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="app-container">
+      <aside class="sidebar-navigation" aria-label="Document Outline">
+        <nav class="outline-nav">
+          <p class="nav-title">Document Outline</p>
+          <ul class="outline-list">
+            <li>
+              <a
+                href="#executive-summary"
+                class="outline-link active"
+                data-shortcut="1"
+                ><span class="shortcut-hint">Alt+1</span> Executive Summary</a
+              >
+            </li>
+            <li>
+              <a href="#facts" class="outline-link" data-shortcut="2"
+                ><span class="shortcut-hint">Alt+2</span> Facts</a
+              >
+            </li>
+            <li>
+              <a href="#analysis" class="outline-link" data-shortcut="3"
+                ><span class="shortcut-hint">Alt+3</span> Analysis</a
+              >
+            </li>
+            <li>
+              <a href="#risks" class="outline-link" data-shortcut="4"
+                ><span class="shortcut-hint">Alt+4</span> Risks</a
+              >
+            </li>
+            <li>
+              <a href="#recommendation" class="outline-link" data-shortcut="5"
+                ><span class="shortcut-hint">Alt+5</span> Recommendation</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main id="main-memorandum" class="memorandum-content" tabindex="-1">
+        <article class="memorandum-document">
+          <header class="document-header">
+            <p class="doc-classification">
+              CONFIDENTIAL // FOR INTERNAL BOARD REVIEW ONLY
+            </p>
+            <h1 class="doc-title">
+              Supplier Agreement Review: Contractual Breaches &amp; Termination
+              Strategy
+            </h1>
+
+            <div class="doc-metadata-grid">
+              <div class="meta-row">
+                <span class="meta-label">TO:</span
+                ><span class="meta-value"
+                  >Chief Executive Officer &amp; Board Risk Committee</span
+                >
+              </div>
+              <div class="meta-row">
+                <span class="meta-label">FROM:</span
+                ><span class="meta-value">JHC Senior Advisory Team</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-label">DATE:</span
+                ><span class="meta-value">June 5, 2026</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-label">RE:</span
+                ><span class="meta-value"
+                  >Material Breach Evaluation of Core Logistics Provider
+                  Contract</span
+                >
+              </div>
+            </div>
+          </header>
+
+          <hr class="doc-divider" />
+
+          <section
+            id="executive-summary"
+            aria-labelledby="heading-exec-summary"
+          >
+            <h2 id="heading-exec-summary">
+              <span class="section-number">1.</span> Executive Summary
+            </h2>
+            <p>
+              This memorandum evaluates our current legal and operational
+              standing regarding the persistent performance failures of our
+              primary logistics provider. Over the past three quarters, the
+              provider has consistently failed to meet service level agreements
+              (SLAs), causing operational disruption.
+            </p>
+            <p>
+              The core question is whether the company should immediately
+              exercise its right of termination. Based on rigorous structural
+              analysis of the agreement, we conclude that
+              <button
+                type="button"
+                class="annotation-trigger"
+                data-evidence-id="ev-material-breach"
+                aria-expanded="false"
+                aria-controls="evidence-panel"
+              >
+                repeated failures legally constitute a material breach</button
+              >. This position minimizes financial exposure while maintaining
+              programmatic stability during vendor transition.
+            </p>
+          </section>
+
+          <section id="facts" aria-labelledby="heading-facts">
+            <h2 id="heading-facts">
+              <span class="section-number">2.</span> Facts
+            </h2>
+            <p>
+              On October 12, 2024, the company entered into a Master Service
+              Agreement (MSA) with the provider for continental freight and
+              warehouse routing.
+            </p>
+            <p>
+              Our operational records demonstrate that starting in Q3 2025,
+              delivery delays exceeded the acceptable 2% margin. By Q1 2026, the
+              error rate in critical routing tasks reached
+              <button
+                type="button"
+                class="annotation-trigger"
+                data-evidence-id="ev-error-rate"
+                aria-expanded="false"
+                aria-controls="evidence-panel"
+              >
+                an unprecedented 14.2% across major hubs</button
+              >. Formal cure notices were issued on February 14 and March 28,
+              2026. No substantial performance remediation has been observed
+              despite written assurances from the provider's executive team.
+            </p>
+          </section>
+
+          <section id="analysis" aria-labelledby="heading-analysis">
+            <h2 id="heading-analysis">
+              <span class="section-number">3.</span> Analysis
+            </h2>
+            <p>
+              The legal threshold for contractual termination rests entirely on
+              the definition of a "Material Breach" within the contract
+              framework. The provider argues that delays stem from macroeconomic
+              constraints and do not reflect intentional non-performance.
+            </p>
+            <p>
+              However, an evaluation of the operational dependencies reveals
+              that the continuity of our supply chain is deeply integrated with
+              their routing software. Under standard commercial law
+              interpretations, when a counterparty fails to maintain the
+              foundational infrastructure required for execution, the contract's
+              core purpose is frustrated. Therefore, the accumulative impact of
+              these minor operational lapses transforms them into a single,
+              comprehensive failure of consideration.
+            </p>
+          </section>
+
+          <section id="risks" aria-labelledby="heading-risks">
+            <h2 id="heading-risks">
+              <span class="section-number">4.</span> Risks
+            </h2>
+            <p>
+              While legal termination is justified, it introduces clear
+              operational and retaliatory risks that the board must consider.
+              First, an immediate exit could prompt the provider to suspend all
+              active tracking nodes, blinding our logistics managers during a
+              transition phase.
+            </p>
+            <p>
+              Second, there is a moderate risk of counter-litigation. The
+              provider may claim that our strict adherence to the SLA metrics
+              constitutes an unreasonable application of the penalty clauses,
+              arguing bad faith. However, our meticulously archived
+              communications and formal cure notices provide an airtight defense
+              against such assertions.
+            </p>
+          </section>
+
+          <section id="recommendation" aria-labelledby="heading-recommendation">
+            <h2 id="heading-recommendation">
+              <span class="section-number">5.</span> Recommendation
+            </h2>
+            <p>
+              We advise the board to authorize a phased termination strategy
+              rather than an abrupt shutdown. This approach mitigates
+              operational gaps while establishing an unassailable legal posture.
+            </p>
+            <p>
+              The company should issue a formal Notice of Intent to Terminate by
+              the close of this business week, citing the un-cured material
+              breaches under Section 8.2 of the MSA. Concurrently, the
+              transition team should begin migrating database nodes to the
+              backup provider, ensuring a clean cutover within 30 days.
+            </p>
+
+            <div class="signature-block">
+              <p class="signature-line">Respectfully submitted,</p>
+              <p class="signature-author">JHC Consulting Advisory Practice</p>
+              <p class="signature-date">Authorized Signatory Record #992-A</p>
+            </div>
+          </section>
+        </article>
+      </main>
+
+      <aside
+        id="evidence-panel"
+        class="evidence-side-panel"
+        aria-labelledby="evidence-panel-title"
+        aria-hidden="true"
+      >
+        <div class="evidence-panel-header">
+          <h3 id="evidence-panel-title">Supporting Evidence</h3>
+          <button
+            id="close-evidence"
+            class="btn-close"
+            aria-label="Close evidence panel"
+          >
+            &times;
+          </button>
+        </div>
+        <div id="evidence-panel-content" class="evidence-panel-content">
+          <p class="evidence-placeholder">
+            Select a highlighted claim within the memorandum to inspect its
+            legal source, contract clause, or empirical data verification.
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/annotations.js"></script>
+    <script src="js/reading-mode.js"></script>
+    <script src="js/accessibility.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
